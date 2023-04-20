@@ -51,7 +51,7 @@ public class ProductController {
   @Operation(summary = "Create product", description = "Creates a new product")
   @ApiResponses(
       value = {
-          @ApiResponse(responseCode = "202", description = "Product created"),
+          @ApiResponse(responseCode = "201", description = "Product created"),
           @ApiResponse(responseCode = "500", description = "Internal server error")
 
       })
